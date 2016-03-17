@@ -1,0 +1,6 @@
+use Timex
+
+defmodule Ex6 do
+  date = Date.today
+  IO.puts(Map.fetch!(date,:year))
+end
