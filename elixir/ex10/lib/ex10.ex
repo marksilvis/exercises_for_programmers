@@ -53,7 +53,7 @@ defmodule Ex10 do
   end
 
   def get_subtotal(list) do
-    Enum.reduce(list, 0, fn(x, acc) -> (x.price * x.quantity) + acc end)
+    Enum.reduce(list, 0, fn(x, acc) -> (Item.get_cost(x)) + acc end)
   end
 
   def get_tax(list) when Kernel.is_list(list) do
