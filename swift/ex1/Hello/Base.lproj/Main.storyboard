@@ -32,14 +32,14 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGX-h5-Tso">
                                 <rect key="frame" x="74" y="156" width="258" height="70"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="mainLabel" destination="UGX-h5-Tso" id="y7D-6B-udK"/>
+                        <outlet property="mainLabel" destination="UGX-h5-Tso" id="g6C-ef-gKp"/>
                         <outlet property="mainTextField" destination="2Ki-4I-VBf" id="esL-vB-4BY"/>
                     </connections>
                 </viewController>
